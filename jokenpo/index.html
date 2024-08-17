@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1 style="color: azure;">Escolha uma das opções</h1>
+
+        <div id="options">
+            <button style="background-color: GREY; color: aliceblue;">PEDRA</button>
+            <button style="color: black;">PAPEL</button>
+            <button style="background-color: RED; color: rgb(255, 255, 255);">TESOURA</button>
+        </div>
+
+        <section>
+            <div>
+                <h2 style="color: orange;">Jogador</h2>
+                <div id="player"></div>
+            </div>
+
+            <div>
+                <h2 style="color: blue;">Computador</h2>
+                <div id="computer"></div>
+            </div>
+        </section>
+
+        <div id="result"></div>
+
+        <div id="score">
+
+            <span>Vitórias:
+            <p id="wins"></p>
+            </span>
+
+            <span>Derrotas:
+                <p id="losses"></p>
+            </span>
+
+            <span>Empates:
+                <p id="ties"></p>
+                </span>
+        </div>
+    </main>
+    <script src="jokenpo.js"></script>
+</body>
+</html>
